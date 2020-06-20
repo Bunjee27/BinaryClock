@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323985303210",
+    "firebase_url": "https://binary-clock-2e203.firebaseio.com",
+    "project_id": "binary-clock-2e203",
+    "storage_bucket": "binary-clock-2e203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323985303210:android:06c2988d33ff8e207c12d3",
+        "android_client_info": {
+          "package_name": "com.example.binaryclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323985303210-90i3uh6odlb6tdvg3c0cl5shav8jd0d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.binaryclock",
+            "certificate_hash": "4aa1540532c7dd29cc091a42f33688099283b328"
+          }
+        },
+        {
+          "client_id": "323985303210-0ljl9l91c4a0k46hab031f35rr9h4ifk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEwik5Jo32kT4xyvv1Wi7nfPjvGCTTQUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323985303210-0ljl9l91c4a0k46hab031f35rr9h4ifk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
