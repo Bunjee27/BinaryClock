@@ -4,34 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="287dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:text="Injustice anywhere is a threat to justice everywhere"
-        android:textSize="22dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/protestTitle" />
+    android:background="@android:color/black">
 
     <EditText
         android:id="@+id/protestTime"
         android:layout_width="305dp"
         android:layout_height="44dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="133dp"
         android:ems="10"
+        android:hint="Time of Protest"
         android:inputType="textPersonName"
-        android:hint="Time of Protest "
-        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textCursorDrawable="@android:drawable/divider_horizontal_textfield"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/protestLocation"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.136" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="297dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="You can't separate peace from freedom because no one can be at peace unless he has his freedom.                                           -Barack Obama"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/protestLocation" />
 
     <EditText
         android:id="@+id/protestLocation"
@@ -39,10 +47,14 @@
         android:layout_height="44dp"
         android:layout_marginTop="123dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Location of Protest"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="14sp"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textCursorDrawable="@android:drawable/divider_horizontal_textfield"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,11 +63,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="251dp"
-        android:layout_height="74dp"
+        android:layout_width="265dp"
+        android:layout_height="65dp"
         android:gravity="center"
         android:text="Create your Protest"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         app:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,31 +81,37 @@
         android:id="@+id/protestTitle"
         android:layout_width="305dp"
         android:layout_height="44dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="556dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Title of Protest"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="14sp"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
 
     <Button
         android:id="@+id/submit"
         android:layout_width="122dp"
         android:layout_height="55dp"
         android:layout_marginTop="65dp"
+        android:layout_marginBottom="64dp"
         android:onClick="createProtest"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/protestTime"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintTop_toBottomOf="@+id/protestTime" />
 
     <TextView
         android:id="@+id/textView2"
@@ -102,12 +120,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="14dp"
         android:gravity="center"
-        android:text="Injustice anywhere is a threat to justice everywhere"
+        android:text="Injustice anywhere is a threat to justice everywhere       -MLK Jr."
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="22dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/protestLocation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/protestTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/protestTitle"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
